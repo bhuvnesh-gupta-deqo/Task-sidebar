@@ -1,0 +1,26 @@
+.sidebar-container {
+  width: 250px;
+  height: 100vh;
+  background-color: #f5f5f5;
+  padding: 10px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+}
+
+.menu-item {
+  margin-left: 5px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  border-bottom:1px solid #f5f5f5;
+}
+
+
+.menu-item-nested {
+  padding-left: 50px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
